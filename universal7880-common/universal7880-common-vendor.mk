@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
     vendor/samsung/universal7880-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/universal7880-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/universal7880-common/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
