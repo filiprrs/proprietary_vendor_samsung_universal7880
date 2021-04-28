@@ -35,3 +35,4 @@ ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
 
 include $(BUILD_PREBUILT)
 
+endif
