@@ -22,19 +22,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/universal7880-common/proprietary/lib/hw/camera.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.exynos5.so \
     vendor/samsung/universal7880-common/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos5.so \
-    vendor/samsung/universal7880-common/proprietary/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hwcomposer.exynos5.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosHWCService.so \
     vendor/samsung/universal7880-common/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal7880-common/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal7880-common/proprietary/lib/libantradio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libantradio.so \
     vendor/samsung/universal7880-common/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
     vendor/samsung/universal7880-common/proprietary/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera3.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosdisplay.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosgscaler.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libexynosscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosscaler.so \
     vendor/samsung/universal7880-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libhdmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdmi.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libhwcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwcutils.so \
     vendor/samsung/universal7880-common/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwjpeg.so \
     vendor/samsung/universal7880-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
     vendor/samsung/universal7880-common/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
@@ -42,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib/libtfa98xx.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtfa98xx.so \
     vendor/samsung/universal7880-common/proprietary/lib/libuniapi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniapi.so \
     vendor/samsung/universal7880-common/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libvirtualdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvirtualdisplay.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -63,26 +55,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/universal7880-common/proprietary/lib64/hw/camera.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/camera.exynos5.so \
     vendor/samsung/universal7880-common/proprietary/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.exynos5.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/hwcomposer.exynos5.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosHWCService.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosOMX_Core.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libantradio.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libantradio.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynoscamera.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynoscamera3.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosdisplay.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosgscaler.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosscaler.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libhdmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdmi.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libhwcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwcutils.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwjpeg.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorlistener.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefrighthw.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libuniapi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libuniapi.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libuniplugin.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libvirtualdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvirtualdisplay.so \
     vendor/samsung/universal7880-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/universal7880-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -144,22 +128,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/memtrack.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/sensors.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengmode_client.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2on1adapter.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
@@ -193,22 +170,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/memtrack.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/sensors.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcRegistry.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
