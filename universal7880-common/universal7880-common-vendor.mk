@@ -343,7 +343,27 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/hw/memtrack.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal7880.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwcutils.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmi.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfimg.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/memtrack.universal7880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal7880.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwcutils.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmi.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfimg.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so
 
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
